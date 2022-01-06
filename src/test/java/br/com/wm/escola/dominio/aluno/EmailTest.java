@@ -1,8 +1,10 @@
-package escola;
+package br.com.wm.escola.dominio.aluno;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import br.com.wm.escola.dominio.aluno.Email;
 
 class EmailTest {
 

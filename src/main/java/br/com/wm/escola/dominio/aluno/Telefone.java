@@ -1,4 +1,4 @@
-package escola;
+package br.com.wm.escola.dominio.aluno;
 
 public class Telefone {
 	
@@ -6,13 +6,15 @@ public class Telefone {
 	private String numero;
 	
 	public Telefone(String ddd, String numero) {
-		if(ddd == null ||
-				!ddd.matches("[0-9]{2}")) {
+		if(ddd == null || numero == null) {
+			throw new IllegalArgumentException("DDD e número são obrigatórios!");
+		}
+		
+		if(!ddd.matches("[0-9]{2}")) {
 			throw new IllegalArgumentException("DDD incorreto!");
 		}
 		
-		if(numero == null ||
-				!numero.matches("[0-9]{8}|[0-9]{9}")) {
+		if(!numero.matches("[0-9]{8}|[0-9]{9}")) {
 			throw new IllegalArgumentException("Telefone incorreto!");
 		}
 		

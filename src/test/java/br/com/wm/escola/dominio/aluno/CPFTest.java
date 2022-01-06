@@ -1,9 +1,11 @@
-package escola;
+package br.com.wm.escola.dominio.aluno;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
+
+import br.com.wm.escola.dominio.aluno.CPF;
 
 class CPFTest {
 
