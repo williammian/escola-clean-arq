@@ -1,0 +1,7 @@
+Separação das anotações do JPA(infra) da camada de domínio.
+
+Exemplo
+
+https://github.com/rcaneppele/fj91-clean-architecture
+
+O tradeoff que vejo é a duplicação dos dados dos modelos/entidades nas camadas de domínio e persistência.
