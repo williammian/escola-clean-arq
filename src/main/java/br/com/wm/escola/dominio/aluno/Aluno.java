@@ -12,6 +12,8 @@ public class Aluno {
 	
 	private List<Telefone> telefones = new ArrayList<>();
 	
+	private String senha;
+	
 	public Aluno(CPF cpf, String nome, Email email) {
 		this.cpf = cpf;
 		this.nome = nome;
