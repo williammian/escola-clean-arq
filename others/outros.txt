@@ -1,0 +1,3 @@
+https://programadev.com.br/arquitetura-limpa/
+
+https://github.com/guilhermegarcia86/clean-architecture-example
