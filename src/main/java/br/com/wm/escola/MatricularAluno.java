@@ -1,4 +1,4 @@
-package br.com.wm.escola.academico;
+package br.com.wm.escola;
 
 import br.com.wm.escola.academico.dominio.aluno.Aluno;
 import br.com.wm.escola.academico.dominio.aluno.Email;
