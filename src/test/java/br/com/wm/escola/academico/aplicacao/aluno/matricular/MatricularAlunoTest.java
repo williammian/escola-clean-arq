@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test;
 
 import br.com.wm.escola.academico.aplicacao.aluno.matricular.MatricularAluno;
 import br.com.wm.escola.academico.aplicacao.aluno.matricular.MatricularAlunoDto;
-import br.com.wm.escola.academico.dominio.PublicadorDeEventos;
 import br.com.wm.escola.academico.dominio.aluno.Aluno;
 import br.com.wm.escola.academico.dominio.aluno.LogDeAlunoMatriculado;
 import br.com.wm.escola.academico.infra.aluno.RepositorioDeAlunosEmMemoria;
 import br.com.wm.escola.shared.dominio.CPF;
+import br.com.wm.escola.shared.dominio.evento.PublicadorDeEventos;
 
 class MatricularAlunoTest {
 

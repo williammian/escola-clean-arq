@@ -1,9 +1,11 @@
 package br.com.wm.escola.academico.dominio.aluno;
 
 import java.time.LocalDateTime;
+import java.util.Map;
 
-import br.com.wm.escola.academico.dominio.Evento;
 import br.com.wm.escola.shared.dominio.CPF;
+import br.com.wm.escola.shared.dominio.evento.Evento;
+import br.com.wm.escola.shared.dominio.evento.TipoDeEvento;
 
 public class AlunoMatriculado implements Evento {
 	
@@ -26,6 +28,16 @@ public class AlunoMatriculado implements Evento {
 
 	public CPF getCpfDoAluno() {
 		return cpfDoAluno;
+	}
+
+	@Override
+	public TipoDeEvento tipo() {
+		return TipoDeEvento.ALUNO_MATRICULADO;
+	}
+
+	@Override
+	public Map<String, Object> informacoes() {
+		return Map.of("cpf", cpfDoAluno);
 	}
 	
 }

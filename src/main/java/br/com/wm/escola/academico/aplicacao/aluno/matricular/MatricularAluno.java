@@ -1,9 +1,9 @@
 package br.com.wm.escola.academico.aplicacao.aluno.matricular;
 
-import br.com.wm.escola.academico.dominio.PublicadorDeEventos;
 import br.com.wm.escola.academico.dominio.aluno.Aluno;
 import br.com.wm.escola.academico.dominio.aluno.AlunoMatriculado;
 import br.com.wm.escola.academico.dominio.aluno.RepositorioDeAlunos;
+import br.com.wm.escola.shared.dominio.evento.PublicadorDeEventos;
 
 public class MatricularAluno {
 	
