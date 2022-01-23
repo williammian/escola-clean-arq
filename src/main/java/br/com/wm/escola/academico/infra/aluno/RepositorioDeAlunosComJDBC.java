@@ -9,10 +9,10 @@ import java.util.List;
 
 import br.com.wm.escola.academico.dominio.aluno.Aluno;
 import br.com.wm.escola.academico.dominio.aluno.AlunoNaoEncontrado;
-import br.com.wm.escola.academico.dominio.aluno.CPF;
 import br.com.wm.escola.academico.dominio.aluno.Email;
 import br.com.wm.escola.academico.dominio.aluno.RepositorioDeAlunos;
 import br.com.wm.escola.academico.dominio.aluno.Telefone;
+import br.com.wm.escola.shared.dominio.CPF;
 
 public class RepositorioDeAlunosComJDBC implements RepositorioDeAlunos {
 	

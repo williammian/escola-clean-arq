@@ -3,6 +3,8 @@ package br.com.wm.escola.academico.dominio.aluno;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.wm.escola.shared.dominio.CPF;
+
 public class Aluno {
 	
 	private CPF cpf;

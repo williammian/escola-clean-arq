@@ -1,10 +1,10 @@
 package br.com.wm.escola.academico;
 
 import br.com.wm.escola.academico.dominio.aluno.Aluno;
-import br.com.wm.escola.academico.dominio.aluno.CPF;
 import br.com.wm.escola.academico.dominio.aluno.Email;
 import br.com.wm.escola.academico.dominio.aluno.RepositorioDeAlunos;
 import br.com.wm.escola.academico.infra.aluno.RepositorioDeAlunosEmMemoria;
+import br.com.wm.escola.shared.dominio.CPF;
 
 public class MatricularAluno {
 	
